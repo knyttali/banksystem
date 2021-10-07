@@ -16,7 +16,7 @@ public class BankSystem {
             System.out.println(colorize("jaaa här behövs desperat sättas in pengar", GREEN_TEXT()));
             System.out.println("Tid: 2021-09-30 " + LocalTime.now());
             System.out.println("*****");
-            System.out.println(colorize("Tillbaka till din sida?", BLUE_TEXT()));
+            System.out.println(colorize("Tillbaka1 till din sida?", BLUE_TEXT()));
             String tillbaka = System.console().readLine();
             if (tillbaka.length() > 0) {
                 break;
